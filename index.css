@@ -7,11 +7,13 @@ body{
     background-color: indigo;
 }
 .header {
+    background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    background-color:navy;
-    color: snow;
+    color: grey;
+    text-decoration: underline magenta;
+    opacity: 0.7;
     letter-spacing: 7px;
 }
 .nav-list {
@@ -29,4 +31,8 @@ body{
     display: inline-block;
     margin: 0 20px;
 }
-
+.main-visual {
+    width: 100%;
+    height: 10%;
+    margin-top:-24px;
+}
