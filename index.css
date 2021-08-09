@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: indigo;
+}
 .header {
     width: 100%;
     padding: 20px 0;
@@ -11,10 +14,6 @@
     color: snow;
     letter-spacing: 7px;
 }
-.header-logo{
-    
-}
-
 .nav-list {
     text-align: center;
     width: 100%;
@@ -30,3 +29,4 @@
     display: inline-block;
     margin: 0 20px;
 }
+
