@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: indigo;
+    background-color: navy;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -23,7 +23,7 @@ body{
     padding: 15px 0;
     border-bottom: 5px solid gold;
     border-top: 5px solid gold;
-    background-color:red;
+    background-color: rgb(255, 0, 0,0.5);
     color:snow;
 }
 .nav-list-item {
