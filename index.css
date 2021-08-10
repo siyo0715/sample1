@@ -11,10 +11,22 @@ body{
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    color: grey;
-    text-decoration: underline magenta;
     opacity: 0.7;
     letter-spacing: 7px;
+}
+.header h1 {
+    color: grey;
+    font-size: 45px;
+}
+.M {
+    color: magenta;
+}
+.P {
+    color: lightgreen;
+}
+
+.header h5 {
+    color: cadetblue;
 }
 .nav-list {
     text-align: center;
