@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html,body{
     background-color: navy;
+    height: 1000px;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -44,7 +45,33 @@ body{
     margin: 0 20px;
 }
 .main-visual {
-    width: 100%;
-    height: 10%;
-    margin-top:-24px;
+    width: 80%;
+    height: 300px;
+    background-color: olive;
+    margin: 0 auto 0 auto;
+    display: flex;
+
+
 }
+.Deliverable span {
+    animation: loading 1.0s infinite alternate;
+    color:white;
+  }
+  Deliverable span:nth-child(2) {
+    animation-delay: .1s;
+  }
+  Deliverable span:nth-child(3) {
+    animation-delay: .2s;
+  }
+  Deliverable span:nth-child(4) {
+    animation-delay: .3s;
+  }
+  @keyframes loading {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
