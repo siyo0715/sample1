@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    background-color: navy;
+    height: 1000px;
+}
+.header {
+    background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 7px;
+}
+.header h1 {
+    color: grey;
+    font-size: 45px;
+}
+.M {
+    color: magenta;
+}
+.P {
+    color: lightgreen;
+}
+
+.header h5 {
+    color: cadetblue;
+}
+.nav-list {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: 5px solid gold;
+    border-top: 5px solid gold;
+    background-color: rgb(255, 0, 0,0.5);
+    color:snow;
+}
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.main-visual{
+  background-color: black;
+  height: 40px;
+  text-align: center;
+}
+.name span {
+  animation: loading 1.3s infinite alternate;
+  color: snow;
+  font-size: 30px;
+}
+name span:nth-child(2) {
+  animation-delay: .1s;
+}
+name span:nth-child(3) {
+  animation-delay: .2s;
+}
+name span:nth-child(4) {
+  animation-delay: .3s;
+}
+@keyframes loading {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ore {
+  background-image: url(image0.jpeg);
+  background-size: cover;
+    width: 480px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    
+
+
+}
