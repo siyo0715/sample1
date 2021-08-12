@@ -85,11 +85,18 @@ name span:nth-child(4) {
     display: flex;
     justify-content: center;
 }
+.main {
+  border-top: 5px solid gold;
+}
 .main-profile {
-  margin-top: 400px;
-  background-color: burlywood;
+  margin-top: 355px;
+  background-color: snow;
 }
 .main-profile li {
   list-style: none;
+}
+.main-profile h1{
+  color:brown;
+  text-decoration: underline 2px solid;
 }
 
