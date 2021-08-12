@@ -6,7 +6,7 @@
 html,body{
     width: 100%;
     background-color: navy;
-    height: 1000px;
+    height: 2000px;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -91,6 +91,7 @@ name span:nth-child(4) {
 .main-profile {
   margin-top: 355px;
   background-color: snow;
+  padding-bottom: 20px;
 }
 .main-profile li {
   list-style: none;
@@ -98,5 +99,18 @@ name span:nth-child(4) {
 .main-profile h1{
   color:brown;
   text-decoration: underline 2px solid;
+  padding-bottom: 20px;
 }
-
+.main-history{
+  background-color: snow;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  
+}
+.main-history h1{
+  color: brown;
+  text-decoration: underline 2px solid;
+}
+.main-history table{
+  width: 100%;
+}
