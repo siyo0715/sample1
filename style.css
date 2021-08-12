@@ -40,6 +40,9 @@ html,body{
     background-color: rgb(255, 0, 0,0.5);
     color:snow;
 }
+.nav-list p {
+   padding-top: 10px;
+}
 .nav-list-item {
     list-style: none;
     display: inline-block;
@@ -80,7 +83,13 @@ name span:nth-child(4) {
     height: 300px;
     margin: 0 auto 0 auto;
     display: flex;
-    
-
-
+    justify-content: center;
 }
+.main-profile {
+  margin-top: 400px;
+  background-color: burlywood;
+}
+.main-profile li {
+  list-style: none;
+}
+
