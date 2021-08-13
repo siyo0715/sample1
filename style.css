@@ -6,7 +6,7 @@
 html,body{
     width: 100%;
     background-color: navy;
-    height: 2000px;
+    height: 2300px;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -81,12 +81,12 @@ name span:nth-child(4) {
   background-size: cover;
     width: 480px;
     height: 300px;
-    margin: 0 auto 0 auto;
+    margin: 22px auto 0 auto;
     display: flex;
     justify-content: center;
 }
-.main {
-  border-top: 5px solid gold;
+.main-visual {
+  border-bottom: 3px solid gold;
 }
 .main-profile {
   margin-top: 355px;
@@ -96,22 +96,86 @@ name span:nth-child(4) {
 .main-profile li {
   list-style: none;
 }
-.main-profile h1{
+.main-profile h1 {
+  border-top:2px solid brown ;
   color:brown;
-  text-decoration: underline 2px solid;
-  padding-bottom: 20px;
-}
-.main-history{
-  background-color: snow;
-  margin-top: 30px;
-  padding-bottom: 40px;
+  background-color: olive;
+  border-bottom:2px solid brown;
+  padding-bottom: 2px;
   
 }
-.main-history h1{
-  color: brown;
-  text-decoration: underline 2px solid;
+.main-history {
+  background-color: snow;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  
 }
-.main-history table{
+.main-history h1 {
+  border-top:2px solid brown ;
+  color: brown;
+  background-color: olive;
+  border-bottom:2px solid brown;
+  padding-bottom: 2px;
+}
+.main-history table {
   width: 100%;
   text-align: center;
+  background-color: orange;
 }
+
+.school h2 {
+  margin-top: 25px;
+  background-color: purple;
+  color: orange;
+}
+.school h4 {
+  padding-top: 20px;
+  text-decoration: underline 2px solid orange;
+}
+
+.after-graduation h2 {
+  margin-top: 25px;
+  background-color: purple;
+  color: orange;
+}
+.scissor {
+  color: silver;
+}
+
+.after-graduation h4 {
+  padding: 20px 0 10px 0;
+  text-decoration: underline 2px solid orange;
+}
+
+.main-objctive {
+  background-color: snow;
+}
+.main-objctive h1 {
+  text-align: center;
+  color: brown;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background-color: olive;
+  border-top: 2px solid brown;
+  border-bottom:2px solid brown;
+  padding-bottom: 2px
+}
+.main-objctive h2 {
+  text-align: center;
+  font-size: 30px;
+  color: lightsalmon;
+  padding-top: 20px;
+}
+.will {
+  text-align: center;
+  text-decoration: underline 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+.main-objctive h3 {
+  padding-bottom: 25px;
+  text-align: center;
+  text-decoration: underline 2px solid orange;
+}
+
