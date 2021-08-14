@@ -1,0 +1,32 @@
+@media (max-width: 600px) and (min-width: 0px){     
+    .header h1{
+        font-size: 250%;
+        padding-left: 2.5%;
+    }
+    .nav-list {
+        font-size: 10px; 
+    }
+    .nav-list-item {
+        list-style: none;
+        display: inline-block;
+        margin: 0 1px;
+    }
+    .ore{
+     max-width: 100%;
+    }
+    .will {
+        text-decoration: underline 2px solid red;
+        font-size: 12px;
+      }
+      .main-objctive h3 {
+        font-size: 6px;
+      }
+      .footer {
+        padding-top:20px;
+        font-size: 10px;
+        height: 300px;
+        margin-top: 50px;
+        background-color: grey;
+        text-align: center;
+      }
+}
