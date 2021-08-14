@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
-    width: 100%;
+html,body {
+    width: 100vw;
     background-color: navy;
-    height: 2300px;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -79,11 +78,11 @@ name span:nth-child(4) {
 .ore {
   background-image: url(image0.jpeg);
   background-size: cover;
-    width: 480px;
-    height: 300px;
-    margin: 22px auto 0 auto;
-    display: flex;
-    justify-content: center;
+  width: 480px;
+  height: 300px;
+  margin: 22px auto 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .main-visual {
   border-bottom: 3px solid gold;
@@ -178,4 +177,33 @@ name span:nth-child(4) {
   text-align: center;
   text-decoration: underline 2px solid orange;
 }
+.footer {
+  height: 200px;
+  margin-top: 50px;
+  background-color: grey;
+  text-align: center;
+}
 
+button{
+  display: inline-block;
+  margin: 0 auto;
+}
+.btn1 {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 150px;
+}
+
+.btn2 {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 150px;
+}
