@@ -6,6 +6,7 @@
 html,body {
     width: 100vw;
     background-color: navy;
+    scroll-behavior: smooth;
 }
 .header {
     background-image: url(https://publicdomainq.net/images/201708/07s/publicdomainq-0011978gsy.jpg;);
@@ -196,6 +197,7 @@ button{
   text-align: center;
   color: white;
   width: 150px;
+  
 }
 
 .btn2 {
@@ -206,4 +208,10 @@ button{
   text-align: center;
   color: white;
   width: 150px;
+}
+
+button:hover{
+  background-color: chocolate;
+  cursor: pointer;
+  cursor: hand;
 }
