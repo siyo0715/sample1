@@ -20,6 +20,7 @@ h1 {
     border: double 10px silver;
 }
 .btn1 {
+    color: slateblue;
     background-color: orange;
     display: flex;
     justify-content: center;
