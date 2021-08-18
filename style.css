@@ -83,7 +83,7 @@ name span:nth-child(4) {
   background-size: cover;
   width: 480px;
   height: 300px;
-  margin: 22px auto 0 auto;
+  margin: 40px auto 0 auto;
   display: flex;
   justify-content: center;
   border: rosybrown 4px solid;
@@ -91,12 +91,12 @@ name span:nth-child(4) {
 .main-visual {
   border-bottom: 4px solid gold;
 }
-#main-profile {
-  margin-top: 355px;
+.main-profile {
+  margin-top: 400px;
   background-color: snow;
   padding-bottom: 20px;
 }
-#main-profile li {
+.main-profile li {
   list-style: none;
 }
 .main-profile h1 {
@@ -109,7 +109,7 @@ name span:nth-child(4) {
 }
 .main-history {
   background-color: snow;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-bottom: 10px;
   
 }
@@ -137,7 +137,7 @@ name span:nth-child(4) {
 }
 
 .after-graduation h2 {
-  margin-top: 25px;
+  margin-top: 50px;
   background-color: purple;
   color: orange;
 }
@@ -152,6 +152,7 @@ name span:nth-child(4) {
 
 .main-objctive {
   background-color: snow;
+  margin-top: 50px;
 }
 .main-objctive h1 {
   text-align: center;
